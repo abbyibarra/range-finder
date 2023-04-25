@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    font-weight: lighter;
+}
+
+h1 {
+    color: white;
+}
+
+h1 > a:link, h1 > a:visited {
+    color: white;
+    text-decoration: none;
+}
+nav > a:link, a:visited {
+    color: white;
+}
+
+footer {
+    font-size: 0.8 em;
+    text-align: center;
+}
+
+p {
+    font-family: comic Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.1 em;
+    line-height: 1.3 em;
+}
+
+h1, h2, nav {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5 em;
+    line-height: 1.7 em;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(245, 26, 63);
+}
+
+a:hover {
+    background-color: gray;
+}
+
+a:active {
+    color: lightgray;
+}
+
+hr {
+    border: 1px solid red;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+footer p{
+    margin-bottom: 1.3em;
+}
+
+/* #blue {
+    background-color: aqua;
+}
+
+.green {
+    background-color: green;
+} */
+
